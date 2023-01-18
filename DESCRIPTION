@@ -1,0 +1,21 @@
+Package: cordis
+Title: Merging cordis dbs
+Version: 0.0.0.9000
+Authors@R: 
+    person("Corrado", "Lanera", , "corrado.lanera@ubep.unipd.it", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-0520-7428"))
+Description: Script to merge cordis dbs into a single one, testing the result.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    dplyr,
+    here,
+    purrr,
+    readr,
+    testthat
+Suggests: 
+    markdown,
+    rmarkdown,
+    tidyverse
